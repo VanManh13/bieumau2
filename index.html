@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .hobbies {
+        color: rgb(255, 106, 0);
+      }
+      .title {
+        color: rgb(0, 0, 195);
+      }
+      .header {
+        color: #fff;
+        background-color: rgb(255, 106, 0);
+      }
+      .header2 {
+        color: blue;
+        background-color: aquamarine;
+      }
+      .title2 {
+        color: rgb(0, 102, 255);
+      }
+      .table2 {
+        background-color: rgb(251, 245, 228);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Phần 1:</h1>
+    <table border="0">
+      <tr>
+        <th colspan="2" class="header">SO THICH CUA BAN</th>
+      </tr>
+      <tr>
+        <td name="yourname" class="title">ho va ten</td>
+        <td><input style="width: 160px" type="text" /></td>
+      </tr>
+      <tr>
+        <td name="email" class="title">email</td>
+        <td><input style="width: 120px" type="text" /></td>
+      </tr>
+      <tr>
+        <td class="title">so thich</td>
+        <td>
+          <table class="hobbies">
+            <tr>
+              <td><input name="hobby" type="checkbox" />the thao</td>
+              <td><input name="hobby" type="checkbox" />am nhac</td>
+              <td><input name="hobby" type="checkbox" />sach</td>
+            </tr>
+            <tr>
+              <td><input name="hobby" type="checkbox" />luot web</td>
+              <td><input name="hobby" type="checkbox" />choi game</td>
+              <td><input name="hobby" type="checkbox" />dien anh</td>
+            </tr>
+            <tr>
+              <td><input name="hobby" type="checkbox" />du lich</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <button name="Submit Form">gui thong tin</button>
+          <button name="Reset Form">nhap lai</button>
+        </td>
+      </tr>
+    </table>
+    <br />
+    <hr />
+    <br />
+    <!-- end  -->
+    <h1>Phần 2:</h1>
+    <table class="table2" border="0">
+      <tr>
+        <th colspan="2" class="header2">DANG KY HOC VIEN</th>
+      </tr>
+      <tr>
+        <td name="yourname" class="title2">
+          <label for="name">ho va ten</label>
+        </td>
+        <td><input id="name" style="width: 160px" type="text" /></td>
+      </tr>
+
+      <tr>
+        <td class="title2">ngay sinh</td>
+        <td><input type="date" /></td>
+      </tr>
+      <tr>
+        <td class="title2">gioi tinh</td>
+        <td><input type="radio" />nam <input type="radio" />nu</td>
+      </tr>
+      <tr>
+        <td class="title2">dia chi</td>
+        <td><textarea name="" id="" cols="30" rows="4"></textarea></td>
+      </tr>
+      <tr>
+        <td class="title2"><label for="lop">lop</label></td>
+        <td>
+          <select id="lop">
+            <option value="" disabled selected>-chon lop-</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td class="title2">email</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td class="title2">dien thoai</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <button>dang ky</button>
+          <button>nhap lai</button>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
